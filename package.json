@@ -1,0 +1,48 @@
+{
+  "name": "slush-slush-es6-module",
+  "description": "Scaffold a ES2015 node module",
+  "version": "0.1.0",
+  "homepage": "https://github.com/arkaitzgarro/slush-slush-es6-module",
+  "author": {
+    "name": "Arkaitz Garro",
+    "email": "arkaitz.garro@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arkaitzgarro/slush-slush-es6-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arkaitzgarro/slush-slush-es6-module/issues"
+  },
+  "license": "MIT",
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "slush": ">=1.0.0",
+    "gulp": "^3.6.2",
+    "gulp-template": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-conflict": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "underscore.string": "^2.3.3",
+    "inquirer": "^0.8.0",
+    "iniparser": "^1.0.5"
+  },
+  "keywords": [
+    "slushgenerator"
+  ],
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
