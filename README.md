@@ -1,7 +1,8 @@
-# Slush Slush-es6-module [![Build Status](https://secure.travis-ci.org/arkaitzgarro/slush-slush-es6-module.png?branch=master)](https://travis-ci.org/arkaitzgarro/slush-slush-es6-module) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-es6-module.png)](http://badges.enytc.com/for/npm/slush-slush-es6-module)
+# Slush Slush-es6-module
+
+[![Build Status](https://secure.travis-ci.org/arkaitzgarro/slush-slush-es6-module.png?branch=master)](https://travis-ci.org/arkaitzgarro/slush-slush-es6-module)
 
 > Scaffold a ES2015 node module
-
 
 ## Getting Started
 
@@ -40,7 +41,7 @@ See the [CONTRIBUTING Guidelines](https://github.com/arkaitzgarro/slush-slush-es
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/arkaitzgarro/slush-slush-es6-module/issues).
 
-## License 
+## License
 
 The MIT License
 
@@ -66,4 +67,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
