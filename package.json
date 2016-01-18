@@ -1,7 +1,6 @@
 {
   "name": "slush-slush-es6-module",
   "description": "Scaffold a ES2015 node module",
-  "version": "0.1.0",
   "homepage": "https://github.com/arkaitzgarro/slush-slush-es6-module",
   "author": {
     "name": "Arkaitz Garro",
@@ -32,7 +31,8 @@
     "gulp-rename": "^1.2.0",
     "underscore.string": "^2.3.3",
     "inquirer": "^0.8.0",
-    "iniparser": "^1.0.5"
+    "iniparser": "^1.0.5",
+    "semantic-release": "^4.3.5"
   },
   "keywords": [
     "slushgenerator"
