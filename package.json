@@ -20,7 +20,8 @@
     "npm": ">=1.4.3"
   },
   "scripts": {
-    "test": "echo \"No tests\""
+    "test": "echo \"No tests\"",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "slush": ">=1.0.0",
