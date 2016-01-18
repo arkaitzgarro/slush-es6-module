@@ -2,14 +2,14 @@
 
 [![Build Status](https://secure.travis-ci.org/arkaitzgarro/slush-es6-module.png?branch=master)](https://travis-ci.org/arkaitzgarro/slush-es6-module)
 
-> Scaffold a ES2015 node module
+> Scaffold an ES2015 (harmony) node module
 
 ## Getting Started
 
-Install `slush-slush-es6-module` globally:
+Install `slush-harmony-module` globally:
 
 ```bash
-$ npm install -g slush-slush-es6-module
+$ npm install -g slush-harmony-module
 ```
 
 ### Usage
@@ -17,13 +17,13 @@ $ npm install -g slush-slush-es6-module
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-slush-es6-module
+$ mkdir my-slush-harmony-module
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-slush-es6-module && slush slush-es6-module
+$ cd my-slush-harmony-module && slush slush-harmony-module
 ```
 
 ## Getting To Know Slush
@@ -36,10 +36,10 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/arkaitzgarro/slush-slush-es6-module/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/arkaitzgarro/slush-es6-module/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/arkaitzgarro/slush-slush-es6-module/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/arkaitzgarro/slush-es6-module/issues).
 
 ## License
 
@@ -62,7 +62,7 @@ included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
 OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+NON INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
 HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR

@@ -1,6 +1,6 @@
 {
-  "name": "slush-slush-es6-module",
-  "description": "Scaffold a ES2015 node module",
+  "name": "slush-harmony-module",
+  "description": "Scaffold an ES2015 (harmony) node module",
   "homepage": "https://github.com/arkaitzgarro/slush-slush-es6-module",
   "author": {
     "name": "Arkaitz Garro",
