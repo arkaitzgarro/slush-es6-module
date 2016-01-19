@@ -23,7 +23,7 @@ $ mkdir my-slush-harmony-module
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-harmony-module && slush slush-harmony-module
+$ cd my-slush-harmony-module && slush harmony-module
 ```
 
 ## Getting To Know Slush
