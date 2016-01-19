@@ -20,10 +20,13 @@
   "bugs": {
     "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/issues"
   },
-  "license": "<%= license %>",
+  "license": "MIT",
   "files": [
     "dist/"
-  ],
+  ],<% if (hasCli) { %>
+  "bin": {
+    "<%= moduleName %>": "./bin/<%= moduleName %>"
+  },<% } %>
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-preset-es2015": "^6.3.13",
@@ -44,7 +47,10 @@
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0",
     "standard": "^5.4.1"
-  },
+  },<% if (hasCli) { %>
+  "dependencies": {
+    "yargs": "^3.31.0"
+  },<% } %>
   "babelOptions": {
     "mochaGlobals": [
       "stub",
