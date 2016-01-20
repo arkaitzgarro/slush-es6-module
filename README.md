@@ -1,4 +1,4 @@
-# Slush Slush-es6-module
+# Slush slush-harmony-module
 
 [![Build Status](https://secure.travis-ci.org/arkaitzgarro/slush-es6-module.png?branch=master)](https://travis-ci.org/arkaitzgarro/slush-es6-module)
 
