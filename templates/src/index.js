@@ -1,8 +1,8 @@
 'use strict';
 
-class AppName {
+class <%= appNameCamel %> {
 
 }
 
-export default new AppName()
-export {AppName}
+export default new <%= appNameCamel %>()
+export {<%= appNameCamel %>}

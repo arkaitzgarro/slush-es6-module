@@ -95,6 +95,7 @@ gulp.task('default', function (done) {
     }
 
     answers.appNameSlug = _.slugify(answers.appName)
+    answers.appNameCamel = _.classify(answers.appName)
 
     gulp.src(__dirname + '/templates/**')
       .pipe(template(answers))

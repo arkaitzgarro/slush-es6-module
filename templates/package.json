@@ -25,7 +25,7 @@
     "dist/"
   ],<% if (hasCli) { %>
   "bin": {
-    "<%= moduleName %>": "./bin/<%= moduleName %>"
+    "<%= appNameSlug %>": "./dist/index.js"
   },<% } %>
   "devDependencies": {
     "babel-core": "^6.3.26",
