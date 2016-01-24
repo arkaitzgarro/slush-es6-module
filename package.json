@@ -26,14 +26,14 @@
   "dependencies": {
     "slush": ">=1.0.0",
     "gulp": "^3.6.2",
-    "gulp-template": "^0.1.1",
-    "gulp-install": "^0.1.4",
-    "gulp-conflict": "^0.1.1",
+    "gulp-conflict": "^0.4.0",
+    "gulp-install": "^0.6.0",
     "gulp-rename": "^1.2.0",
-    "underscore.string": "^2.3.3",
-    "inquirer": "^0.8.0",
+    "gulp-template": "^3.1.0",
     "iniparser": "^1.0.5",
-    "semantic-release": "^4.3.5"
+    "inquirer": "^0.11.3",
+    "semantic-release": "^4.3.5",
+    "underscore.string": "^3.2.3"
   },
   "keywords": [
     "slushgenerator"
