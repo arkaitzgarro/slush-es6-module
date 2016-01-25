@@ -1,17 +1,17 @@
 {
   "name": "slush-harmony-module",
   "description": "Scaffold an ES2015 (harmony) node module",
-  "homepage": "https://github.com/arkaitzgarro/slush-slush-es6-module",
+  "homepage": "https://github.com/arkaitzgarro/slush-es6-module",
   "author": {
     "name": "Arkaitz Garro",
     "email": "arkaitz.garro@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/arkaitzgarro/slush-slush-es6-module.git"
+    "url": "https://github.com/arkaitzgarro/slush-es6-module.git"
   },
   "bugs": {
-    "url": "https://github.com/arkaitzgarro/slush-slush-es6-module/issues"
+    "url": "https://github.com/arkaitzgarro/slush-es6-module/issues"
   },
   "license": "MIT",
   "main": "slushfile.js",
@@ -39,7 +39,8 @@
     "slushgenerator"
   ],
   "devDependencies": {
-    "cz-conventional-changelog": "^1.1.5"
+    "cz-conventional-changelog": "^1.1.5",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
