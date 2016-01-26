@@ -6,6 +6,13 @@
     "name": "Arkaitz Garro",
     "email": "arkaitz.garro@gmail.com"
   },
+  "keywords": [
+    "es6",
+    "harmony",
+    "node",
+    "module",
+    "browserify"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/arkaitzgarro/slush-es6-module.git"
