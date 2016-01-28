@@ -6,7 +6,7 @@ class <%= appNameCamel %> {
     this._options = {}
   }
 
-  set options (options = {}) {
+  set options (options) {
     this._options = options
   }
 
