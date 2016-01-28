@@ -18,6 +18,10 @@ var _ = require('underscore.string')
 var inquirer = require('inquirer')
 var path = require('path')
 
+var paths = [
+  __dirname + '/templates/**'
+]
+
 var format = function format (string) {
   var username = string.toLowerCase()
 
@@ -94,10 +98,16 @@ gulp.task('default', function (done) {
       return done()
     }
 
+    // Only add CLI support if needed
+    if(!answers.hasCli) {
+      paths.push('!' + __dirname + '/templates/cli.js');
+      paths.push('!' + __dirname + '/templates/{bin,bin/**}');
+    }
+
     answers.appNameSlug = _.slugify(answers.appName)
     answers.appNameCamel = _.classify(answers.appName)
 
-    gulp.src(__dirname + '/templates/**')
+    gulp.src(paths)
       .pipe(template(answers))
       .pipe(rename(function (file) {
         if (file.basename[0] === '_') {
