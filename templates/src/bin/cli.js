@@ -5,10 +5,12 @@
 import <%= appNameCamel %> from '../'
 import yargs from 'yargs'
 
-const argv = yargs.usage('Usage: $0 (<source path> | <url>) <destination folder>')
+const argv = yargs.usage('Usage: $0 [options] command')
   .showHelpOnFail(false, 'Specify --help for available options')
   .version(() => {
-    return require('../package').version
+    return require('../../package.json').version
   })
   .help('help')
   .argv
+
+console.log(`Executing ${argv.$0}`);
