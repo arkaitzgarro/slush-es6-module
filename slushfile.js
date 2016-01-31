@@ -99,9 +99,9 @@ gulp.task('default', function (done) {
     }
 
     // Only add CLI support if needed
-    if(!answers.hasCli) {
-      paths.push('!' + __dirname + '/templates/cli.js');
-      paths.push('!' + __dirname + '/templates/{bin,bin/**}');
+    if (!answers.hasCli) {
+      paths.push('!' + __dirname + '/templates/cli.js')
+      paths.push('!' + __dirname + '/templates/{bin,bin/**}')
     }
 
     answers.appNameSlug = _.slugify(answers.appName)

@@ -3,6 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/arkaitzgarro/slush-es6-module.png?branch=master)](https://travis-ci.org/arkaitzgarro/slush-es6-module)
 [![Dependency Status](https://david-dm.org/arkaitzgarro/slush-es6-module.svg)](https://david-dm.org/arkaitzgarro/slush-es6-module)
 [![devDependency Status](https://david-dm.org/arkaitzgarro/slush-es6-module/dev-status.svg)](https://david-dm.org/arkaitzgarro/slush-es6-module#info=devDependencies)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 > Scaffold an ES2015 (harmony) node module
 
