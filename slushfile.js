@@ -108,7 +108,7 @@ gulp.task('default', function (done) {
     answers.appNameCamel = _.classify(answers.appName)
 
     gulp.src(paths)
-      .pipe(template(answers))
+      .pipe(template(answers, { interpolate: /<%=([\s\S]+?)%>/g }))
       .pipe(rename(function (file) {
         if (file.basename[0] === '_') {
           file.basename = '.' + file.basename.slice(1)
