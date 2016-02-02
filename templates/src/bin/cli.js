@@ -13,4 +13,4 @@ const argv = yargs.usage('Usage: $0 [options] command')
   .help('help')
   .argv
 
-console.log(`Executing ${argv.$0}`);
+console.log(`Executing ${argv.$0}`)
